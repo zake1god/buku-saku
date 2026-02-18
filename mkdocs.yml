@@ -1,0 +1,38 @@
+site_name: Buku Saku TNI Angkatan Udara
+site_description: Menghadapi Ancaman Non-Kinetik dan Perang Informasi
+site_author: TNI Angkatan Udara
+#site_url: https://USERNAME.github.io
+
+theme:
+  name: material
+  logo: assets/logo.png
+
+  palette:
+    - scheme: slate
+      primary: blue
+      accent: light blue
+
+  features:
+    - navigation.sections
+    - navigation.expand
+
+extra_css:
+  - stylesheets/extra.css
+  - assets/custom.css
+
+nav:
+  - Home: index.md
+  - Kata Pengantar: kata-pengantar.md
+  - BAB I Cybersecurity Awareness: bab1-cybersecurity-awareness.md
+  - BAB II Ketahanan Informasi: bab2-ketahanan-informasi.md
+  - BAB III Bijak Bermedia Sosial: bab3-bijak-bermedia-sosial.md
+  - BAB IV Himbauan: bab4-himbauan.md
+  - Penutup: penutup.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true

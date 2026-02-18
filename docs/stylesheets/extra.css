@@ -1,0 +1,36 @@
+/* ============================= */
+/*     TNI AU HEADER ONLY       */
+/* ============================= */
+
+:root {
+  --md-primary-fg-color: #0a2f5a;
+  --md-primary-fg-color--light: #2f5fa8;
+  --md-primary-fg-color--dark: #081f3f;
+
+  --md-accent-fg-color: #4fa3ff;
+}
+
+/* ============================= */
+/*      TITLE TYPOGRAPHY FIX    */
+/* ============================= */
+
+.md-content h1 {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+}
+
+.md-content h2 {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+.md-content h3 {
+  color: #e0f0ff !important;
+  font-weight: 600 !important;
+}
+	
+.md-content h1 {
+  font-size: 2.2rem !important;
+  line-height: 1.3;
+}
