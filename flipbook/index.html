@@ -12,13 +12,9 @@
         <meta name="author" content="TNI Angkatan Udara">
       
       
-        <link rel="canonical" href="https://zake1god.github.io/kata-pengantar/">
+        <link rel="canonical" href="https://zake1god.github.io/flipbook/">
       
       
-        <link rel="prev" href="..">
-      
-      
-        <link rel="next" href="../bab1-cybersecurity-awareness/">
       
       
         
@@ -29,7 +25,7 @@
     
     
       
-        <title>Kata Pengantar - Buku Saku TNI Angkatan Udara</title>
+        <title>📖 Buku Saku Interaktif (HD) - Buku Saku TNI Angkatan Udara</title>
       
     
     
@@ -86,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kata-pengantar" class="md-skip">
+        <a href="#buku-saku-interaktif-hd" class="md-skip">
           Skip to content
         </a>
       
@@ -122,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Kata Pengantar
+              📖 Buku Saku Interaktif (HD)
             
           </span>
         </div>
@@ -254,19 +250,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../kata-pengantar/" class="md-nav__link">
         
   
   
@@ -282,7 +269,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -457,15 +443,53 @@
 
 
 
-<h1 id="kata-pengantar">KATA PENGANTAR<a class="headerlink" href="#kata-pengantar" title="Permanent link">&para;</a></h1>
-<p>Perkembangan lingkungan strategis global menunjukkan bahwa spektrum ancaman terhadap kedaulatan negara tidak lagi didominasi oleh kekuatan bersenjata konvensional. Perang modern kini juga berlangsung di ruang siber dan ruang informasi, senyap, masif, dan mampu memengaruhi opini, moral, serta stabilitas nasional tanpa satu pun tembakan dilepaskan.</p>
-<p>Perang non-kinetik memanfaatkan teknologi, disinformasi, propaganda, dan manipulasi persepsi untuk melemahkan pertahanan dan persatuan bangsa. Sementara itu, perang informasi berfokus pada penguasaan narasi dan pengendalian opini publik.</p>
-<p>Pimpinan Tertinggi TNI AU menegaskan pentingnya:</p>
-<blockquote>
-<p><strong>Cybersecurity Awareness dan Ketahanan Informasi</strong></p>
-</blockquote>
-<p>Buku saku ini disusun sebagai panduan praktis dan ringkas bagi seluruh personel TNI AU dalam memahami serta menghadapi ancaman non-kinetik dan perang informasi.</p>
-<p>Semoga buku saku ini memberikan manfaat nyata dan memperkuat komitmen dalam menjaga profesionalisme serta ketahanan informasi TNI Angkatan Udara.</p>
+<h1 id="buku-saku-interaktif-hd">📖 Buku Saku Interaktif (HD)<a class="headerlink" href="#buku-saku-interaktif-hd" title="Permanent link">&para;</a></h1>
+<div id="flipbook-container">
+    <div id="flipbook"></div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", async function () {
+
+    const pdfUrl = "/assets/buku-saku.pdf";
+
+    const pdf = await pdfjsLib.getDocument(pdfUrl).promise;
+    const pages = [];
+
+    for (let i = 1; i <= pdf.numPages; i++) {
+        const page = await pdf.getPage(i);
+        const viewport = page.getViewport({ scale: 2 }); // HD scale
+
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("2d");
+
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+
+        await page.render({
+            canvasContext: context,
+            viewport: viewport
+        }).promise;
+
+        pages.push(canvas);
+    }
+
+    const pageFlip = new St.PageFlip(
+        document.getElementById("flipbook"),
+        {
+            width: 600,
+            height: 800,
+            size: "stretch",
+            showCover: true,
+            maxShadowOpacity: 0.5,
+            mobileScrollSupport: false,
+        }
+    );
+
+    pageFlip.loadFromHTML(pages);
+
+});
+</script>
 
 
 
