@@ -1,58 +1,61 @@
-## BAB I  
+# 🛡️ BAB I  
 ## CYBERSECURITY AWARENESS
 
-### 1.1 Pemahaman Dasar
+---
 
-Ancaman modern tidak lagi selalu berbentuk serangan fisik. Serangan siber dapat berupa:
+### 🎯 Mengapa Keamanan Siber Penting?
 
-- Phishing
-- Malware
-- Ransomware
-- Social Engineering
-- Insider Threat
+Ancaman modern tidak selalu terlihat secara fisik.  
+Serangan dapat terjadi melalui email, pesan singkat, atau tautan yang tampak biasa.
 
-#### Jenis Serangan Umum
+#### ⚠️ Jenis Ancaman Umum
 
-**Phishing**  
-Penyamaran melalui email/pesan palsu untuk mencuri data.
+- 🎣 **Phishing** – Penyamaran untuk mencuri data  
+- 🦠 **Malware** – Program perusak sistem  
+- 🔒 **Ransomware** – Pengunci data dengan tebusan  
+- 🧠 **Social Engineering** – Manipulasi psikologis  
+- 🏠 **Insider Threat** – Ancaman dari dalam organisasi  
 
-**Malware**  
-Perangkat lunak berbahaya untuk merusak atau mencuri data.
-
-**Ransomware**  
-Mengunci data dan meminta tebusan.
-
-**Social Engineering**  
-Manipulasi psikologis untuk memperoleh akses informasi.
-
-**Insider Threat**  
-Ancaman dari dalam organisasi.
+!!! warning "Fakta Penting"
+    Sebagian besar serangan berhasil bukan karena teknologi lemah,  
+    tetapi karena faktor kelengahan manusia.
 
 ---
 
-### 1.2 Ancaman Nyata bagi Personel TNI AU
+### 🛰️ Ancaman Nyata bagi Personel
 
-- Email dinas dapat menjadi pintu masuk serangan.
-- Wi-Fi publik berisiko penyadapan.
-- Media sosial dapat digunakan untuk pengumpulan informasi.
-- Percakapan ringan dapat diarahkan menggali data operasional.
+| Risiko | Dampak |
+|--------|--------|
+| Email dinas terinfeksi | Akses sistem terganggu |
+| Wi-Fi publik | Penyadapan data |
+| Media sosial | Pengumpulan intelijen terbuka |
+| Percakapan santai | Kebocoran operasional |
 
----
-
-### 1.3 Prinsip Dasar Keamanan Siber
-
-- Gunakan password kuat dan unik.
-- Aktifkan multi-factor authentication.
-- Update sistem secara berkala.
-- Pisahkan perangkat dinas dan pribadi.
-- Terapkan prinsip **Need to Know**.
+!!! tip "Ingat"
+    Kesadaran individu adalah lapisan pertahanan pertama.
 
 ---
 
-### 1.4 Tindakan Saat Insiden Siber
+### 🔐 Prinsip Dasar Keamanan Digital
 
-- Tetap tenang.
-- Jangan menyebarkan informasi insiden.
-- Laporkan melalui jalur komando.
-- Dokumentasikan bukti.
-- Jangan investigasi sendiri tanpa kewenangan.
+- 🔑 Gunakan password kuat & unik  
+- 📲 Aktifkan Multi-Factor Authentication  
+- 🔄 Update sistem berkala  
+- 💻 Pisahkan perangkat dinas & pribadi  
+- 📂 Terapkan prinsip **Need to Know**
+
+!!! info "Prinsip Utama"
+    Keamanan bukan hanya tugas tim IT.  
+    Keamanan adalah tanggung jawab setiap personel.
+
+---
+
+### 🚨 Jika Terjadi Insiden
+
+1. Tetap tenang  
+2. Dokumentasikan bukti  
+3. Jangan menyebarkan informasi  
+4. Laporkan melalui jalur komando  
+
+!!! danger "Dilarang"
+    Jangan melakukan investigasi mandiri tanpa kewenangan.

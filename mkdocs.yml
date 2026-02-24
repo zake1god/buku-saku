@@ -1,7 +1,7 @@
 site_name: Buku Saku TNI Angkatan Udara
 site_description: Menghadapi Ancaman Non-Kinetik dan Perang Informasi
 site_author: TNI Angkatan Udara
-#site_url: https://USERNAME.github.io
+site_url: https://zake1god.github.io
 
 theme:
   name: material

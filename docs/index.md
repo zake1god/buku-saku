@@ -36,7 +36,7 @@
 <div class="hero">
   <img src="assets/cover.png">
 
-  <a class="download-btn" href="assets/buku-saku.pdf" download>
+  <a class="download-btn" href="assets/buku-saku-2.pdf" download>
     📥 Download PDF Resmi
   </a>
 </div>

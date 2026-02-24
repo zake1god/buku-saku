@@ -1,43 +1,46 @@
-# BAB III  
-# BIJAK BERSOSIAL MEDIA
-
-## 3.1 Media Sosial sebagai Ruang Operasi Baru
-
-Media sosial adalah bagian dari domain pertahanan informasi.
-
-Jejak digital bersifat permanen.
+# 🌍 BAB III  
+## BIJAK BERMEDIA SOSIAL
 
 ---
 
-## 3.2 Etika dan Disiplin Bermedia Sosial
+### 📱 Media Sosial: Ruang Operasi Baru
 
-- Hindari unggahan terkait operasional.
-- Jaga netralitas.
-- Hindari perdebatan provokatif.
-- Bersikap profesional dan santun.
+Media sosial adalah domain pertahanan informasi.
 
----
-
-## 3.3 Kenali Pola Rekrutmen dan Provokasi
-
-Modus yang umum:
-
-- Akun anonim
-- Survei/kuis palsu
-- Permintaan data pribadi
-- Konten provokatif
-
-Kunci: Pengendalian diri dan kewaspadaan.
+!!! info "Jejak Digital"
+    Apa yang diunggah hari ini dapat berdampak di masa depan.
 
 ---
 
-## 3.4 Prinsip Saring – Simpan – Sebarkan
+### 🎯 Etika & Disiplin Digital
 
-**Saring**  
-Periksa sumber dan kebenaran.
+- 🚫 Hindari unggahan operasional  
+- ⚖  Jaga netralitas  
+- 💬 Gunakan bahasa profesional  
+- 🔍 Hindari debat provokatif  
 
-**Simpan**  
-Lindungi data pribadi dan dinas.
+---
 
-**Sebarkan**  
-Bagikan hanya informasi aman dan positif.
+### ⚠️ Waspadai Modus
+
+| Modus | Tujuan |
+|-------|--------|
+| Akun anonim | Rekrutmen / provokasi |
+| Survei palsu | Pengumpulan data |
+| Konten emosional | Manipulasi opini |
+
+!!! warning "Pengendalian Diri Adalah Kunci"
+    Tidak semua informasi perlu ditanggapi.
+
+---
+
+### 🔄 Prinsip 3S
+
+#### 🔎 Saring  
+Periksa sumber.
+
+#### 🔐 Simpan  
+Lindungi data pribadi & dinas.
+
+#### 📢 Sebarkan  
+Bagikan hanya informasi aman & positif.
